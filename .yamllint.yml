@@ -1,0 +1,13 @@
+# .yamllint.yml
+# Configuration for Yamllint
+---
+# Rules section: configure specific rules here
+rules:
+  line-length:
+    max: 99999 # Set to a very high number to effectively disable
+  indentation: enable
+  trailing-spaces: enable
+  document-start:
+    present: true
+  empty-lines:
+    max: 2
