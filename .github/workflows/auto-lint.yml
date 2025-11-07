@@ -13,6 +13,6 @@ jobs:
         uses: actions/checkout@v4
         
       - name: 🔎 Run Luacheck Linter
-        uses: lunarmodules/luacheck-action@v1
+        uses: lunarmodules/luacheck@v1
         with:
           files: '*.lua' 
