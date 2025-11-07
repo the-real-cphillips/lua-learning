@@ -23,18 +23,8 @@ jobs:
 
       - name: Merge 'dev' into 'main'
         run: |
-<<<<<<< HEAD
           git checkout main
           git merge dev --no-ff -m "Auto-merge from dev after successful merge into dev branch"
           
       - name: Push Changes to 'main'
         run: git push origin main
-=======
-          # 1. Checkout the target branch
-          git checkout main
-          # 2. Merge from the source branch ('dev') with a merge commit
-          git merge dev --no-ff -m "Auto-merge from dev after successful merge into dev branch"
-          
-      - name: Push Changes to 'main'
-        run: git push origin main
->>>>>>> origin/main
